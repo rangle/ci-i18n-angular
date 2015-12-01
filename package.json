@@ -1,6 +1,7 @@
 {
   "name": "workshop",
   "version": "0.0.0",
+  "license":"MIT",
   "dependencies": {
     "angular-message-format": "^1.4.8",
     "angular-translate-interpolation-messageformat": "^2.8.1",
