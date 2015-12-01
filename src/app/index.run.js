@@ -6,9 +6,13 @@
     .run(runBlock);
 
   /** @ngInject */
-  function runBlock($log) {
+  function runBlock($log, $rootScope, moment) {
 
     $log.debug('runBlock end');
+
+    $rootScope.$on('$translateChangeStart', function (event, lang) {
+      moment.locale(lang);
+    });
   }
 
 })();
