@@ -1,0 +1,36 @@
+{
+  "fr":  [
+    {
+      "name": "Mark",
+      "type": "chèques",
+      "balance": 1005.23
+    },
+    {
+      "name": "Carol",
+      "type": "des économies",
+      "balance": 2025.3
+    },
+    {
+      "name": "Pat",
+      "type": "crédit",
+      "balance": 103.5
+    }
+  ] ,
+  "en": [
+    {
+      "name": "Mark",
+      "type": "Chequing",
+      "balance": 1005.23
+    },
+    {
+      "name": "Carol",
+      "type": "Savings",
+      "balance": 2025.3
+    },
+    {
+      "name": "Pat",
+      "type": "Credit",
+      "balance": 103.5
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+.account-list {
+    width: 50%;
+    height: 250px;
+    overflow-y: auto;
+}
+
+.account-list .col-1-2 {
+    float: left;
+    width: 49.5%;
+}
+
+.account-list .account-row {
+    margin-bottom: 15px;
+    height: 45px;
+}
