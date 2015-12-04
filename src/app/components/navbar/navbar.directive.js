@@ -21,11 +21,20 @@
     return directive;
 
     /** @ngInject */
-    function NavbarController(moment) {
-      var vm = this;
+    function NavbarController($scope, $interval, moment) {
+      var vm = this,
+        interval;
 
       // "vm.creation" is avaible by directive option "bindToController: true"
       vm.relativeDate = moment(vm.creationDate).fromNow();
+      vm.now = new Date();
+
+      interval = $interval(function () {
+        vm.now = new Date();
+      }, 1000);
+      $scope.$on('$destroy', function () {
+        $interval.cancel(interval);
+      });
     }
   }
 
