@@ -21,7 +21,7 @@
 
   /** @ngInject */
   function translations($translateProvider, tmhDynamicLocaleProvider) {
-    $translateProvider.useSanitizeValueStrategy('escape');
+    $translateProvider.useSanitizeValueStrategy('sanitizeParameters');
 
     tmhDynamicLocaleProvider.localeLocationPattern(
       '/assets/locales/angular-locale_{{locale}}.js');

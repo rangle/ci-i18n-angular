@@ -44,6 +44,7 @@
     "TYPE": "Type",
     "BALANCE": "Balance"
   },
+  "WITH_HTML": "HTML <em>Emphasis</em>",
   "Locale": {
     "EN": "English",
     "FR": "French",
