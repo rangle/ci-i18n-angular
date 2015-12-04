@@ -24,7 +24,7 @@
     $translateProvider.useSanitizeValueStrategy('escape');
 
     tmhDynamicLocaleProvider.localeLocationPattern(
-      '/assets/locale-lib/angular-locale_{{locale}}.js');
+      '/assets/locales/angular-locale_{{locale}}.js');
 
     $translateProvider.useStaticFilesLoader({
       prefix: 'assets/locales/locale-',
