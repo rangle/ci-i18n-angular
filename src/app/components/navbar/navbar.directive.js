@@ -21,13 +21,16 @@
     return directive;
 
     /** @ngInject */
-    function NavbarController($scope, $interval, moment) {
+    function NavbarController($scope, $interval, $translate, moment) {
       var vm = this,
         interval;
 
       // "vm.creation" is avaible by directive option "bindToController: true"
       vm.relativeDate = moment(vm.creationDate).fromNow();
       vm.now = new Date();
+      vm.balance = 75.23;
+      vm.percentage = 44;
+      vm.$translate = $translate;
 
       interval = $interval(function () {
         vm.now = new Date();
