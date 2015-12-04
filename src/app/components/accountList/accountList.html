@@ -1,0 +1,7 @@
+<div class="account-list">
+    <div class="account-row" ng-repeat="account in vm.accountList.accounts">
+        <div class="col-1-2">{{ 'AccountList.NAME' | translate }}</div><div class="col-1-2">{{ account.name}}</div>
+        <div class="col-1-2">{{ 'AccountList.TYPE' | translate }}</div><div class="col-1-2">{{ account.type}}</div>
+        <div class="col-1-2">{{ 'AccountList.BALANCE' | translate }}</div><div class="col-1-2">{{ account.balance | currency }}</div>
+    </div>
+</div>

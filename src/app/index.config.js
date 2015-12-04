@@ -19,8 +19,12 @@
     toastrConfig.progressBar = true;
   }
 
-  function translations($translateProvider) {
-    $translateProvider.useSanitizeValueStrategy('escape');
+  /** @ngInject */
+  function translations($translateProvider, tmhDynamicLocaleProvider) {
+    $translateProvider.useSanitizeValueStrategy('sanitizeParameters');
+
+    tmhDynamicLocaleProvider.localeLocationPattern(
+      '/assets/locales/angular-locale_{{locale}}.js');
 
     $translateProvider.useStaticFilesLoader({
       prefix: 'assets/locales/locale-',

@@ -5,6 +5,9 @@
     <li class="active"><a ng-href="#">{{ 'Nav.HOME' | translate }}</a></li>
     <li><a ng-href="#">{{ 'Nav.ABOUT' | translate }}</a></li>
     <li><a ng-href="#">{{ 'Nav.CONTACT' | translate }}</a></li>
+    <li><a ng-href="#">{{ 1000 | currency }}</a></li>
+    <li><a ng-href="#">{{ vm.now | date:'short' }}</a></li>
+    <li><a ng-href="#" ng-bind-html="'WITH_HTML' | translate"></a></li>
   </ul>
 
   <ul class="acme-navbar-text">

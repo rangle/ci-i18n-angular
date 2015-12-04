@@ -1,17 +1,17 @@
 {
   "Nav": {
-    "HOME":"Home",
-    "ABOUT":"About",
+    "HOME":"Domicile",
+    "ABOUT":"Sur",
     "CONTACT":"Contact",
     "GULP":"Gulp Angular",
-    "CREATED":"Application was created"
+    "CREATED":"Application a été créée"
   },
   "Index": {
-    "TITLE":"workshop",
-    "HEADER":"'Allo, 'Allo!",
+    "TITLE":"Atelier",
+    "HEADER":"Salut! Salut!",
     "WARNING":"You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience.",
-    "YEOMAN":"Always a pleasure scaffolding your apps.",
-    "THANKS":"With ♥ thanks to the contributions of"
+    "YEOMAN":"Toujours un plaisir échafaudages avec vous.",
+    "THANKS":"Avec ♥ merci aux contributeurs de "
   },
   "WebDev": {
     "AngularJS": {
@@ -40,14 +40,14 @@
     }
   },
   "AccountList": {
-    "NAME": "Name",
+    "NAME": "Nom",
     "TYPE": "Type",
-    "BALANCE": "Balance"
+    "BALANCE": "Équilibre"
   },
-  "WITH_HTML": "HTML <em>Emphasis</em>",
+  "WITH_HTML": "HTML <em>Accentuation</em>",
   "Locale": {
-    "EN": "English",
-    "FR": "French",
-    "GB": "Gibberish"
+    "EN": "Anglais",
+    "FR": "Français",
+    "GB": "Charabia"
   }
 }
