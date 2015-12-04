@@ -39,6 +39,11 @@
       "DESC":"End to end test framework for AngularJS applications built on top of WebDriverJS."
     }
   },
+  "AccountList": {
+    "NAME": "Nom",
+    "TYPE": "Type",
+    "BALANCE": "Équilibre"
+  },
   "Locale": {
     "EN": "Anglais",
     "FR": "Français",
